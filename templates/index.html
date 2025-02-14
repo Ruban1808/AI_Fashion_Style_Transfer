@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Style Transfer</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        input { margin: 10px; }
+        button { padding: 10px; background: blue; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Upload Clothing & Style Image</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label>Upload Clothing Image:</label>
+        <input type="file" name="content" required><br>
+        <label>Upload Style Image:</label>
+        <input type="file" name="style" required><br>
+        <button type="submit">Apply Style Transfer</button>
+    </form>
+</body>
+</html>
